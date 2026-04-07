@@ -1,4 +1,4 @@
-# OrthoAssist AI: Clinical Fracture Analysis System 🦴🤖
+# OrthoAssist AI: Clinical Fracture Analysis System 🦴
 > **For Research & Educational Use Only.**
 > All AI-generated findings must be reviewed by a licensed radiologist or orthopedic specialist before any clinical application.
 
