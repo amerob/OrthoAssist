@@ -1,12 +1,10 @@
-# OrthoAssist AI — Clinical Fracture Analysis System
-
+# OrthoAssist AI: Clinical Fracture Analysis System 🦴🤖
 > **For Research & Educational Use Only.**
 > All AI-generated findings must be reviewed by a licensed radiologist or orthopedic specialist before any clinical application.
 
 ---
 
-## Overview
-
+## Overview 📋
 OrthoAssist AI is an advanced orthopedic fracture analysis web application that combines state-of-the-art computer vision models with a conversational AI assistant. It enables rapid, preliminary screening of X-ray images for bone classification and fracture detection.
 
 **Key capabilities:**
@@ -17,13 +15,13 @@ OrthoAssist AI is an advanced orthopedic fracture analysis web application that 
 
 ---
 
-## Demo
+## Demo 📸
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amerob/orthoassist/main/assets/ortho1.png" width="900"/>
 </p>
 
-### AI Clinical Assistant
+### AI Clinical Assistant 💬
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amerob/orthoassist/main/assets/ortho2.png" width="900"/>
@@ -35,23 +33,23 @@ OrthoAssist AI is an advanced orthopedic fracture analysis web application that 
 
 ---
 
-## Features
+## Features ✨
 
-### Imaging & Detection
-- **Drag-and-drop upload** — supports JPEG, PNG, BMP up to 16 MB
-- **Organ Classification** — ResNet50 ONNX identifies: Elbow, Finger, Forearm, Humerus, Shoulder, Wrist
-- **Fracture Detection** — YOLOv8 localizes fractures with confidence scores and bounding boxes
-- **Adjustable confidence threshold** — slider from 0–100% for detection sensitivity
-- **Side-by-side image comparison** — original vs. AI-annotated with lightbox zoom
-- **Detection table** — lists all findings with confidence bars and severity ratings (High / Moderate / Low)
+### Imaging & Detection 🩻
+- **Drag-and-drop upload** 📤 — supports JPEG, PNG, BMP up to 16 MB
+- **Organ Classification** 🔍 — ResNet50 ONNX identifies: Elbow, Finger, Forearm, Humerus, Shoulder, Wrist
+- **Fracture Detection** ⚠️ — YOLOv8 localizes fractures with confidence scores and bounding boxes
+- **Adjustable confidence threshold** 🎛️ — slider from 0–100% for detection sensitivity
+- **Side-by-side image comparison** 👁️ — original vs. AI-annotated with lightbox zoom
+- **Detection table** 📋 — lists all findings with confidence bars and severity ratings (High / Moderate / Low)
 
-### AI Clinical Assistant
-- **Context-aware chat** — GPT-3.5 Turbo answers questions about the uploaded X-ray results
-- **Medical disclaimers** — clearly communicates educational-only scope
-- **Chat history** — retains up to 20 messages per session, with clear/reset option
-- **Dynamic welcome message** — summarizes detected findings on chat open
+### AI Clinical Assistant 🧠
+- **Context-aware chat** 💬 — GPT-3.5 Turbo answers questions about the uploaded X-ray results
+- **Medical disclaimers** ⚕️ — clearly communicates educational-only scope
+- **Chat history** 📜 — retains up to 20 messages per session, with clear/reset option
+- **Dynamic welcome message** ✨ — summarizes detected findings on chat open
 
-### Interface
+### Interface 🎨
 - Professional dark clinical UI — built for radiological reading environments
 - Responsive layout — desktop sidebar, stacked on mobile
 - Print-ready report — hides UI chrome, prints the diagnostic section cleanly
@@ -59,7 +57,7 @@ OrthoAssist AI is an advanced orthopedic fracture analysis web application that 
 
 ---
 
-## Tech Stack
+## Tech Stack 🛠️
 
 | Layer | Technology |
 |---|---|
@@ -75,7 +73,8 @@ OrthoAssist AI is an advanced orthopedic fracture analysis web application that 
 
 ---
 
-## Project Structure
+## Project Structure 📁
+
 
 ```
 chat_app/
@@ -103,14 +102,16 @@ chat_app/
 
 ---
 
-## Getting Started
+
+---
+
+## Getting Started 
 
 ### Prerequisites
 - Python 3.9+
 - OpenAI API key
 
 ### Installation
-
 ```bash
 # 1. Clone the repository
 git clone https://github.com/amerob/OrthoAssistAI.git
@@ -130,7 +131,6 @@ cp .env.example .env
 
 # 5. Run the app
 python app.py
-```
 
 Open `http://localhost:5000` in your browser.
 
@@ -143,7 +143,7 @@ docker run -p 5000:5000 -e OPENAI_API_KEY=sk-... orthoassist
 
 ---
 
-## API Endpoints
+## API Endpoints 🔌
 
 | Route | Method | Description |
 |---|---|---|
@@ -157,7 +157,7 @@ docker run -p 5000:5000 -e OPENAI_API_KEY=sk-... orthoassist
 
 ---
 
-## Configuration (`config.py`)
+## Configuration (`config.py`) ⚙️
 
 | Parameter | Default | Description |
 |---|---|---|
@@ -169,7 +169,7 @@ docker run -p 5000:5000 -e OPENAI_API_KEY=sk-... orthoassist
 
 ---
 
-## Models
+## Models 🧬
 
 ### ResNet50 (Organ Classification)
 - Format: ONNX
@@ -185,7 +185,7 @@ docker run -p 5000:5000 -e OPENAI_API_KEY=sk-... orthoassist
 
 ---
 
-## Medical Disclaimer
+## Medical Disclaimer ⚠️
 
 > This application is developed for **research and educational purposes only**.
 > It is **not a medical device** and has **not been approved** by any regulatory authority (FDA, CE, etc.).
@@ -194,21 +194,21 @@ docker run -p 5000:5000 -e OPENAI_API_KEY=sk-... orthoassist
 
 ---
 
-## License
+## License 📜
 
 This project is released under the [MIT License](LICENSE).
 
 ---
 
-## Author
+## Author 👨‍🔬
 
-**Amer Obaidat**
+**Amer Obeidat**
 - Built for medical AI research and educational demonstrations
 - Combines classical deep learning (ResNet50, YOLOv8) with LLM-powered clinical assistance
 
 ---
 
-## Acknowledgements
+## Acknowledgements 🙏
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [ONNX Runtime](https://onnxruntime.ai/)
