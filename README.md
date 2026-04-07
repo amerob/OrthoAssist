@@ -20,12 +20,13 @@ OrthoAssist AI is an advanced orthopedic fracture analysis web application that 
 ## Demo
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bfb99cf8-377f-4b4c-9b2f-ec298854a5f9" width="900"/>
+  <img src="https://raw.githubusercontent.com/amerob/orthoassist/main/assets/ortho1.png" width="900"/>
 </p>
 
 ### AI Clinical Assistant
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/34e361ae-8f33-4cc3-954a-a193047c41e1" width="900"/>
+  <img src="https://raw.githubusercontent.com/amerob/orthoassist/main/assets/ortho2.png" width="900"/>
 </p>
 
 | Upload & Analysis | Diagnostic Report |
